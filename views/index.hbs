@@ -1,0 +1,43 @@
+<div style="padding-top: 20px; padding-bottom: 20px;">
+    <img src="./assets/img/unnamed.jpg" alt="burger-immage" width="200" height="170" style="position: relative; left: 45%; background: local;">
+</div>
+
+
+<div class="container">
+    <div class="box">
+        <div class="box-row">
+            <div class="box-cell box1">
+                {{# each Burgers}}
+                    {{#if this.devoured}}
+                    {{else}}
+                        <form action="/{{this.id}}" method="post">
+                            <label>{{this.id}}. {{this.burger_name}}</label>
+                            <button class="btn btn-outline-success" type="submit">Devoure It!</button>
+                        </form>
+                    {{/if}}
+                {{/each}}
+            </div>
+            <div class="box-cell box2">
+                {{# each Burgers}}
+                    {{#if this.devoured}} 
+                        <div>
+                            <label>{{this.id}}. {{this.burger_name}}</label>
+                        </div>
+                    {{/if}}
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div style="width: 40%; position: relative; left: 32%;">
+    <form method="POST" action="/"> 
+        <div class="form-group">
+            <label >Enter Pizza Name</label>
+            <input class="form-control" type="text", name="burger_name">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</div>
+

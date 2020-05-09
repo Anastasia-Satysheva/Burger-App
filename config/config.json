@@ -1,0 +1,34 @@
+{
+    "development": {
+      "username": "wmdo28wy05flbu9g",
+      "password": "qpc3cud34142v9lt",
+      "database": "cpsti22cfpd4s9vp",
+      "host": "y5s2h87f6ur56vae.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+      "port": "3306",
+      "dialect": "mysql"
+    },
+    "test": {
+      "username": "wmdo28wy05flbu9g",
+      "password": "qpc3cud34142v9lt",
+      "database": "cpsti22cfpd4s9vp",
+      "host": "y5s2h87f6ur56vae.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+      "port": "3306",
+      "socketPath": "~travis/.my.cnf",
+      "dialect": "mysql",
+      "logging": false
+    },
+    "ci": {
+      "username": "wmdo28wy05flbu9g",
+      "password": "qpc3cud34142v9lt",
+      "database": "cpsti22cfpd4s9vp",
+      "host": "y5s2h87f6ur56vae.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+      "socketPath": "~travis/.my.cnf",
+      "dialect": "mysql",
+      "logging": false
+    },
+    "production": {
+      "use_env_variable": "JAWSDB_URL",
+      "dialect": "mysql"
+    }
+  }
+  
