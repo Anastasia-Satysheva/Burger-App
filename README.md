@@ -4,4 +4,4 @@ This application allows the user to create new burgers and move them to differen
 # Usage  
 From the bottom of the page, you can add new burgers. Once a burger has been added, you can then click the button "Devour!" to add it to the eaten list. 
 # Screenshot
-<img src="./Screen Shot 2020-05-11 at 11.17.52 AM 2 .png">
+<img src="./Screen Shot 2020-05-11 at 11.17.52 AM 2.png">
